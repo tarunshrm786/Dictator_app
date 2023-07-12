@@ -1,0 +1,80 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdf5e2;
+  }
+  
+  .title {
+    color: black;
+  }
+  
+  .body {
+    background-color: #fdf5e2;
+  }
+  
+  .rounded-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #3b5998; /* Professional blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .rounded-button:hover {
+    background-color: #808080;
+  }
+
+  .wpm {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  .custom-textarea {
+    width: 700px;
+    height: auto;
+    min-height: 300px;
+    max-height: 400px;
+    padding: 10px;
+    resize: vertical;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
+  }
+  
+  .highlighted-text {
+    margin-top: 10px;
+  }
+  
+  .highlighted-word {
+    background-color: yellow;
+  }
+
+
+  /* Media Query for mobile screens */
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .custom-textarea {
+      width: 300px;
+    }
+  }
+  
+  /* Media Query for laptop screens */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      padding: 40px;
+    }
+  
+    .custom-textarea {
+      width: 80%;
+    }
+  }
+  
